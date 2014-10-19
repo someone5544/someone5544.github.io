@@ -17,9 +17,9 @@ function createPlayer() {
 		sound.play();
 	}
 	else {
-		document.getElementsByTagName("a")[0].style.visibility = false;
+		document.getElementById("quote_link").style.visibility = false;
 		var elm = document.createElement("p");
-		elm.innerHTML = "Your browser doesn't support HTML5 mp3 audio.";
+		elm.innerHTML = "Your browser doesn't support HTML5 mp3 audio :(";
 		document.getElementById("top_sec").appendChild(elm);
 	}
 }
