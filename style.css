@@ -6,6 +6,13 @@ a {
 	color: #333333;
 }
 
+.container {
+	text-align: left;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #top_sec {
 	font-family: Calibri, Helvetica, Arial, sans-serif;
 	text-align: center;
