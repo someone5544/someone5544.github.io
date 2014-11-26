@@ -1,9 +1,9 @@
 body {
-	background-color: #666666;
+	background-color: #333333;
 }
 
 a {
-	color: #333333;
+	color: #666666;
 }
 
 .container {
@@ -43,4 +43,27 @@ a {
 	position: relative;
 	top: 5px;
 	right: 10px;
+}
+
+#thin{
+	background-color: #FFF;
+	height: 10px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	bottom: 40px;
+	left: 0px;
+	z-index: 0;
+}
+#thick{
+	background-color: #FFF;
+	height: 20px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	bottom: 10px;
+	left: 0px;
+	z-index: 0;
 }
